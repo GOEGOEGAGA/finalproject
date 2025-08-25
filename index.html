@@ -1,0 +1,216 @@
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            text-align: center;
+            background-color: #ffffff;
+        }
+        header {
+            background-color: #4cc3ff;
+            padding: 20px 0;
+            animation: fade 1s ease-in-out;
+        }
+        header img {
+            width: 60px;
+            vertical-align: middle;
+            transition: transform 0.3s;
+        }
+        header img:hover {
+            transform: scale(1.1);
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            color: black;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            font-size: 16px;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: white;
+        }
+
+        h1 {
+            font-size: 40px;
+            margin: 40px 0;
+            animation: slide 1s ease-in-out;
+        }
+        h2 {
+            font-size: 28px;
+            margin: 30px 0 20px 0;
+            animation: slide 1.2s ease-in-out;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        .about {
+            max-width: 600px;
+            margin: 0 auto;
+            line-height: 1.6;
+            animation: fade 1.5s ease-in-out;
+        }
+        .about img {
+            width: 120px;
+            margin-top: 15px;
+            transition: transform 0.3s;
+        }
+        .about img:hover {
+            transform: scale(1.1);
+        }
+
+        .top-levels {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .level {
+            max-width: 200px;
+            animation: fade 1.5s ease-in-out;
+        }
+        .level img {
+            width: 100%;
+            border-radius: 8px;
+            transition: transform 0.3s;
+        }
+        .level img:hover {
+            transform: scale(1.05);
+        }
+        .level p {
+            font-weight: bold;
+            margin: 5px 0 0 0;
+        }
+        .level span {
+            color: orange;
+            font-weight: bold;
+        }
+
+        .review {
+            margin: 20px auto;
+            max-width: 600px;
+            text-align: center;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 15px;
+            animation: slide 2s ease-in-out;
+        }
+        .review img {
+            width: 60px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+            transition: transform 0.3s;
+        }
+        .review img:hover {
+            transform: scale(1.1);
+        }
+
+        .bloodbath {
+            color: red;
+            font-weight: bold;
+            font-size: 26px;
+            margin: 10px 0;
+            animation: fade 2s ease-in-out;
+        }
+        .bloodbath-img {
+            width: 85%;
+            max-width: 700px;
+            border-radius: 8px;
+            transition: transform 0.4s;
+        }
+        .bloodbath-img:hover {
+            transform: scale(1.03);
+        }
+
+        footer {
+            background-color: #f1f1f1;
+            padding: 20px 0;
+            margin-top: 20px;
+            font-size: 16px;
+            line-height: 1.6;
+            animation: fade 2.5s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="https://learn.logikaschool.com/uploads/student/4736801/689a221983f7b.png" alt="Logo">
+    <nav>
+        <a href="#">Главная</a>
+        <a href="#">Про ГД</a>
+        <a href="#">Топ 3</a>
+        <a href="#">Відгуки</a>
+        <a href="#">Контакти</a>
+    </nav>
+</header>
+
+<main>
+
+    <section class="name1">
+        <h1>Geometry Dash</h1>
+    </section>
+
+    <section class="name2">
+        <h2>Про Geometry Dash</h2>
+        <div class="about">
+            <p>Geometry Dash — це ритмічна платформер-гра, де ви керуєте кубиком, стрибаючи через перешкоди під музику. Гравці повинні вчасно натискати, щоб уникати пасток і досягати фінішу. Гра відома своєю складністю, динамічним геймплеєм та музичними треками, що підлаштовуються під рух.</p>
+            <img src="https://learn.logikaschool.com/uploads/student/4736801/689a259803eba.png" alt="GD Icon">
+        </div>
+
+        <h2>Топ 3 найскладніших рівнeй в ГД</h2>
+        <div class="top-levels">
+            <div class="level">
+                <img src="https://learn.logikaschool.com/uploads/student/4736801/689a272635998.png" alt="Thinking Space I">
+                <p>Thinking Space I</p>
+                <span>Топ 2</span>
+            </div>
+            <div class="level">
+                <img src="https://learn.logikaschool.com/uploads/student/4736801/689a270454e83.png" alt="Amethyst">
+                <p>Amethyst</p>
+                <span>Топ 1</span>
+            </div>
+            <div class="level">
+                <img src="https://learn.logikaschool.com/uploads/student/4736801/689a27353191f.png" alt="Tidal Wave">
+                <p>Tidal Wave</p>
+                <span>Топ 3</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="name3">
+        <h2>Відгуки</h2>
+        <div class="review">
+            <img src="https://learn.logikaschool.com/uploads/student/4736801/689a278ac5eb4.png" alt="Karan">
+            <p><strong>Karan Can Karan</strong> ⭐⭐⭐⭐⭐<br>Рівень просто неймовірний! Музика і складність на висоті. Пройшов його після 3 місяців тренувань.</p>
+        </div>
+        <div class="review">
+            <img src="https://learn.logikaschool.com/uploads/student/4736801/689a27a042a74.png" alt="NanderTGA">
+            <p><strong>NanderTGA</strong> ⭐⭐⭐⭐⭐<br>Bloodbath — це легенда! Дуже складно, але цікаво. Раджу всім, хто любить виклики.</p>
+        </div>
+
+        <h2>Самый легендарный уровень в ГД</h2>
+        <h3 class="bloodbath">Bloodbath</h3>
+        <img class="bloodbath-img" src="https://learn.logikaschool.com/uploads/student/4736801/689a1935397a1.png" alt="Bloodbath">
+    </section>
+
+</main>
+
+<footer>
+    <h3>Адреса</h3>
+    <p>мiсто Київ<br>вул. Незалежності 34</p>
+    <p>мiсто Харків<br>вул. Сумська 60</p>
+    <p>мiсто Львів<br>вул. Богдана Хмельницького 14</p>
+</footer>
+
+</body>
+</html>
+
+
